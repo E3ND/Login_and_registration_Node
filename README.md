@@ -8,6 +8,7 @@ Para o desenvolvimento do projeto foi usado Node, Prisma e MongoDB
 Instruções de uso:
 Crie uma conta no site: https://www.mongodb.com/pt-br crie seu banco de dados contendo nome de usuário e senha, após isso crie um arquivo na pasta raiz do projeto chamando .env e dentro dela crie uma variável chamada DATABASE_URL e armazene a URL do seu banco, contendo nome de usuário, senha e nome do banco.
 O resultado deve ser semelhante a esse:
+
 DATABASE_URL="mongodb+srv://(nome):(senha)@cluster0.b3kpyvx.mongodb.net/(nome do seu banco)?retryWrites=true&w=majority"
 
 Após isso crie uma outra variável no arquivo .env com o nome SECRET, e nela armazene uma valor aleatório, pois ele valor será usado para gerar um token de autenticação, siga o exemplo:
