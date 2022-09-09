@@ -12,6 +12,7 @@ O resultado deve ser semelhante a esse:
 DATABASE_URL="mongodb+srv://(nome):(senha)@cluster0.b3kpyvx.mongodb.net/(nome do seu banco)?retryWrites=true&w=majority"
 
 Após isso crie uma outra variável no arquivo .env com o nome SECRET, e nela armazene uma valor aleatório, pois ele valor será usado para gerar um token de autenticação, siga o exemplo:
+
 SECRET=UISADPQOW1283H7182YEAO8Q71JW10WJNDA1O23JKN
 
 Agora é só digitar no terminal: npm run dev e sua API estará pronta.
